@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+:root{
+    --purple:#9747ff;
+    --white:#fff;
+}
+/* header */
+.navbar-brand img {
+    width: 60% !important;
+    height: 100%;
+}
+
+.navbar-nav {
+
+    padding: 0 22px;
+    gap: 21px;
+
+}
+
+.main h1 {
+    font-weight: 800;
+    font-size: 72px;
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.main p {
+
+    margin: 16px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 10%;
+}
+
+.inp {
+    margin: 20px 0;
+    -webkit-tap-highlight-color: transparent;
+    min-width: 0px;
+    width: 70%;
+    padding: 8.5px 0px 8.5px 14px;
+}
+.btn{   
+    /* margin: 10%; */
+    color:var(--white) !important ;
+    text-align: center;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+       font-size: 20px !important;
+        box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    
+}
+.main h2 {
+    font-weight: 600;
+    /* font-size: 72px; */
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.btn-popular{
+    justify-content: space-between;
+    margin: 23px 0;
+}
+.btn-popular li button{
+    text-align: center;
+    min-width: 64px;
+    padding: 5px 15px;
+    border: 1px solid rgba(104, 81, 255, 0.5);
+    color: rgb(104, 81, 255);
+    border-radius: 50px;
+    font-weight: 500;
+    gap: 10px;
+   background-color: #fff !important;
+   margin  :0 6px;
+}
+
+/* <!-- HERo --> */
+.hero{
+    width: 99%;
+    height: 100%;
+}
+.hero img{
+    width: 100%;
+}
+
+.second-sec h1 span{
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.second-sec h1 {
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+    /* background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+}
+.second-sec {
+    text-align: center;
+    margin: 60px 0;
+}
+.second-sec p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card{ 
+    margin: 12px  0!important;
+    padding: 16px 26px!important; 
+    border: 2px solid var(--purple) !important;
+    border-radius: 1rem !important;
+}
+.card i{
+    color: var(--purple) !important;
+    font-size: 18px !important;
+}
+.card h5{
+    color: var(--purple) !important;
+}
+.fourth-sec h1 span{
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.fourth-sec {
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+       background-clip: text;
+}
+.fourth-sec {
+    text-align: center;
+    margin: 60px 0;
+}
+.seven{
+    margin: 50px 0;
+}
+.seven h1 span{
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.seven-sec {
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: -.02em;
+       background-clip: text;
+}
+.seven-sec {
+    /* text-align: center; */
+    margin: 60px 0;
+}
+.btn1 {
+    text-align: center;
+    min-width: 64px;
+    padding: 5px 15px;
+    border: 1px solid rgba(104, 81, 255, 0.5);
+    color: rgb(104, 81, 255);
+    border-radius: 50px;
+    font-weight: 500;
+    gap: 10px;
+   background-color: #fff !important;
+   margin  :0 6px;
+
+   
+}
+footer{
+    position: relative;
+    background: linear-gradient(180deg,#4d3bdb 0%,#9747ff 100%);
+    width: 100%;
+    padding: 80px 0 50px;
+}
