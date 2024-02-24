@@ -76,6 +76,9 @@ li{
     justify-content: space-between;
     margin: 23px 0;
 }
+.btn-primary {
+    border-radius: 50px !important;
+}
 .btn-popular li button{
     text-align: center;
     min-width: 64px;
